@@ -30,6 +30,8 @@
     todayViewController = [[TodayViewController alloc] init];
     todayViewController.dataModel = dataModel;//加载数据
     
+    //test
+    
     //设置全局NavigationBar的颜色
     if (iOS6) {
         [[UINavigationBar appearance] setTintColor:RGBA(28, 93, 176, 1)];
